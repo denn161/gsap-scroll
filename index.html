@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Creative Scroll</title>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="content">
+				<header class="hero-section">
+					<img data-speed=".6" class="hero-img" src="img/hero.png" alt="Hero" />
+					<div class="container">
+						<div data-speed=".75" class="main-header">
+							<h1 class="main-title">creative scroll</h1>
+						</div>
+					</div>
+				</header>
+				<section class="portfolio">
+					<div class="container">
+						<main class="gallery">
+							<div  class="gallery__left" data-speed=".9">
+								<img class="gallery__item" src="./img/work/1.jpg" alt="Wrk" />
+								<img class="gallery__item" src="./img/work/2.jpg" alt="Wrk" />
+								<div class="content-block gallery__item">
+									<h2 class="content__block-title">
+										Creative floating scroll with amazing parallax effect
+									</h2>
+									<p class="content__block-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Necessitatibus animi officiis fugiat voluptatem neque
+										molestiae omnis aliquid esse doloremque, cum nam distinctio
+										voluptas quaerat quidem ut? Aspernatur ducimus veniam
+										impedit!
+									</p>
+								</div>
+								<img class="gallery__item" src="./img/work/6.jpg" alt="Wrk" />
+							</div>
+							<div class="gallery__right" data-speed="1.2">
+								<div class="content-block gallery__item">
+									<h2 class="content__block-title">
+										Creative floating scroll with amazing parallax effect
+									</h2>
+									<p class="content__block-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Necessitatibus animi officiis fugiat voluptatem neque
+										molestiae omnis aliquid esse doloremque, cum nam distinctio
+										voluptas quaerat quidem ut? Aspernatur ducimus veniam
+										impedit!
+									</p>
+								</div>
+								<img class="gallery__item" src="./img/work/3.jpg" alt="Wrk" />
+								<img class="gallery__item" src="./img/work/4.jpg" alt="Wrk" />
+								<img class="gallery__item" src="./img/work/5.jpg" alt="Wrk" />
+							</div>
+						</main>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="./libs/gsap/gsap.min.js" defer></script>
+		<script src="./libs/gsap/ScrollTrigger.min.js" defer></script>
+		<script src="./libs/gsap/ScrollSmoother.min.js" defer></script>
+		<script src="./js/app.js" defer></script>
+	</body>
+</html>
